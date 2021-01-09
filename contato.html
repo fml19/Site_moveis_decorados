@@ -1,0 +1,121 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv=" Content-Type " content="text/html; charset=utf-8 " />
+
+    <title>Projeto_RTR</title>
+
+    <body>
+
+        <div class="zapweb " id="div_fixa ">
+            <a href="whatsapp.php " target="_blank "> <img src="./img/what.png " width="70 "></a>
+        </div>
+
+        <header class="menu-principal ">
+            <main>
+
+                <div class="header-1 ">
+                    <div class="logo ">
+                        <img src="./img/logo.png " />
+                    </div>
+            </main>
+        </header>
+        <main class="col-100 menu-urls ">
+            <div class="header-2 ">
+                <div class="menu ">
+                    <ul>
+                        <li>
+                            <a href="file:///D:/Projet_RTR/index.html "><strong>Inicio</strong></a>
+                        </li>
+                        <li>
+                            <a href="file:///D:/Projet_RTR/decorados.html "><strong>Fotos</strong></a>
+                        </li>
+                        <li>
+                            <a href="file:///D:/Projet_RTR/contato.html "><strong>Contatos</strong></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div>
+                <meta charset="utf-8 ">
+                <title>Contato</title>
+            </div>
+
+            <header>
+                <main class="col-200 - label ">
+                    <div>
+                        <h1>Solicite seu orçamento</h1>
+                        <form action="processa.php " method="POST " enctype="multipart/form-data ">
+                            <div>
+                                <label for=" ">Nome</label>
+                                <input name="nome " required="required " placeholder="Digite seu nome " type="text ">
+                            </div><br />
+                            <div>
+                                <label for=" ">E-mail</label>
+                                <input name="email " required="required " placeholder="Digite seu E-mail " type="text ">
+                            </div><br />
+                            <div>
+                                <label for=" ">Selecione sua cidade</label>
+                                <select required="required " name="cidade ">
+                                    <option selected="selected " value=" ">Selecione</option>
+                                    <option value="1 ">São Paulo - Capital </option>
+                                    <option value="2 ">São Paulo - Interior </option>
+                                    <option value="3 ">São Paulo - Litoral </option>
+                                </select>
+                            </div><br />
+                            <div>
+                                <label for=" ">Arquivo</label>
+                                <input required="required " name="Arquivo " type="file ">
+                            </div><br />
+                            <div>
+                                <p>Selecione o comodo</p>
+                                <label for="comodo1 "><input name="comodo " id="comodo1 " value="q " type="checkbox ">Dormitório</label>
+                                <label for="comodo2 "><input name="comodo " id="comodo2 " value="s " type="checkbox ">Sala Estar</label>
+                                <label for="comodo3 "><input name="comodo " id="comodo3 " value="c " type="checkbox ">Cozinha</label>
+                                <label for="comodo4 "><input name="comodo " id="comodo4 " value="b " type="checkbox ">Banho</label>
+                                <label for="comodo5 "><input name="comodo " id="comodo5 " value="l " type="checkbox ">Área de Serviço</label>
+                                <label for="comodo6 "><input name="comodo " id="comodo6 " value="e " type="checkbox ">Home Office</label>
+                                <label for="comodo7 "><input name="comodo " id="comodo7 " value="a " type="checkbox ">Varanda</label>
+                            </div><br />
+                            <div>
+                                <label for=" ">Comentario</label><br>
+                                <textarea name="comentario " placeholder="Informe a metragem do local ou tire sua dúvida " required="required " cols="80 " rows="10 "></textarea>
+                            </div>
+                            <div>
+                                <label for="Promoções "><input name="promotions " id="promoçoes " type="checkbox ">Deseja receber e-mails promocionais?</label>
+                            </div><br />
+                            <div>
+                                <button name="enviar " value="1 " type="submit " class="bt ">Enviar</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </main>
+            </header>
+            <footer>
+                <div class="col-100 footer ">
+                    <div class="content ">
+                        <h3><strong>RTR MÓVEIS&DECORAÇÃO</strong></h3>
+                        <p class="email "><img alt=" " style="width:20px; height:20px;float: left; " title=" " src="./img/email.ico "> &nbsp; vendedorprojetistathiago@gmail.com</p>
+                        <p class="res "><img alt=" " style="width:20px; height:20px;float: left; " title=" " src="./img/fone.ico "> &nbsp;(11) 4789-7222</p>
+                        <p class="cel "><img alt=" " style="width:20px; height:20px;float: left; " title=" " src="./img/cel.ico "> &nbsp;(11) 98572-0766</p>
+                        <p class="zap "><img alt=" " style="width:25px; height:25px;float: left; " title=" " src="./img/what.ico "> &nbsp;(11) 94009-6424</p>
+                    </div>
+            </footer>
+    </body>
+
+    <script type=" text/javascript " src="https://code.jquery.com/jquery-1.11.0.min.js ">
+    </script>
+    <script type="text/javascript " src="https://code.jquery.com/jquery-migrate-1.2.1.min.js "></script>
+    <script type="text/javascript " src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+    <script type="text/javascript " src="./js/main.js "></script>
+
+
+</head>
+
+</html>
