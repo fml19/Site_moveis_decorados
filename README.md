@@ -18,3 +18,5 @@ Criação de site de moveis decorados para divulgação e orçamentos
 
 • PHP;
 
+• HTML;
+
